@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import { AuthContext } from "../context/AuthContext";
 import medify from "../assets/medify.svg";
 import "../index.css"
-import Notifications from "./chat/notifications";
+import Notifications from "./chat/Notifications";
 
 const NavBar = () => {
     const { user, logoutUser } = useContext(AuthContext);
